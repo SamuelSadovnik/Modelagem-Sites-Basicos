@@ -13,48 +13,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
-<body><h1>Formulario:</h1>
+<body><h1>Cadastro:</h1>
 
-    <form method="get" action="api/post">
+    <form action="secondPage/index.html" target="_blank"> 
+<br>
+    <label for="idname">Nome:</label>
+    <input type="text" name="idname" id="idname">
+<br>
+    <label for="idemail">Email:</label>
+    <input type="email" name="idemail" id="idemail">
+<br>
+    <label for="idtelefone">Telefone:</label>
+    <input type="number" name="idtelefone" id="idtelefone">
 
-
-    <form action="">
-        Nome:
-<input type="text"><br>
-<br>Email: 
-<input type="email"><br></h4><br>
-
-Telefone:
-<input type="text"><br><br>
-Senha:
-<input type="password"><br><br>
- Data de nascimento:&ensp;<br>
- 
-<input type="date"><br>
-<h2>Sexo:</h2>&nbsp; Masculino <input type="radio"><br>&nbsp; Feminino<input type="radio"><br>&nbsp; Não    Informar<input type="radio"><br>
-    <h2>Interesses</h2>
-    Python<input type="checkbox"><br>
-    Java<input type="checkbox"><br>
-    C<input type="checkbox"><br>
-
-    <h2>Escolaridade</h2>
-    Ensino Medio Completo<input type="radio"><br>
-    Graduação<input type="radio"><br>
-    Pós-Graduação<input type="radio"><br>
-    Mestrado<input type="radio"><br>
-    Doutorado<input type="radio"><br><br>
+<br>
+    <label for="idpassword">Senha:</label>
+    <input type="password" name="idpassword" id="idpassword">
+<br>
+    <label for="iddate">Data de Nascimento</label>
+    <input type="date" name="iddate" id="iddate">
 
 
+    <h2>Sexo:</h2>  
+    <label for="idsexo1">Masculino:</label>
+    <input type="radio" name="sexo" id="idsexo1"><br>
+    <label for="idsexo2">Feminino:</label>
+    <input type="radio" name="sexo" id="idsexo2"><br>
+    <label for="idsexo3">Não Informar</label>
+    <input type="radio" name="sexo" id="idsexo3"><br>
+<br>
+
+
+
+<h2>Interesses:</h2>
+    <label for="py">Python</label>
+    <input type="checkbox" name="py" id="py"><br>
+    <label for="jv">Java</label>
+    <input type="checkbox" name="jv" id="jv"><br>
+    <label for="c">C</label>
+    <input type="checkbox" name="c" id="c"><br>
+
+    <h2>Escolaridade:</h2>
+   <label for="esc1">Ensino Medio Completo</label>
+   <input type="radio" name="esc" id="esc1"><br>
+   <label for="esc2">Graduação</label>
+   <input type="radio" name="esc" id="esc2"><br>
+   <label for="esc3">Pós-Graduação</label>
+   <input type="radio" name="esc" id="esc3"><br>
+   <label for="esc4">Mestrado</label>
+   <input type="radio" name="esc" id="esc4"><br>
+   <label for="esc5">Doutorado</label>
+   <input type="radio" name="esc" id="esc5"><br><br><br>
     
-
-    
-&nbsp;&nbsp;<input type="submit">&nbsp;<input type="reset">
-
-
-
-
-
-
+    &nbsp;<input type="submit">&nbsp;<input type="reset">
     </form>
 
 </body>
