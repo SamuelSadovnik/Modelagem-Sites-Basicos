@@ -13,7 +13,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
-<body><h1>Cadastro:</h1>
+<style>
+    body {
+        background-color: rgb(160, 250, 250);
+        color:black
+    }
+
+
+</style>
+<body>
+    
+    
+    <h1>Cadastro:</h1>
 
     <form action="secondPage/index.html" target="_blank"> 
 <br>
@@ -52,6 +63,13 @@
     <input type="checkbox" name="jv" id="jv"><br>
     <label for="c">C</label>
     <input type="checkbox" name="c" id="c"><br>
+    <label for="html">Html</label>
+    <input type="checkbox" name="html" id="html"><br>
+    <label for="css">Css</label>
+    <input type="checkbox" name="css" id="css"><br>
+    <label for="c++">C++</label>
+    <input type="checkbox" name="c++" id="c++"><br>
+
 
     <h2>Escolaridade:</h2>
    <label for="esc1">Ensino Medio Completo</label>
@@ -64,6 +82,17 @@
    <input type="radio" name="esc" id="esc4"><br>
    <label for="esc5">Doutorado</label>
    <input type="radio" name="esc" id="esc5"><br><br><br>
+
+   <select>
+    <option value="ensi med">Ensino Medio Completo</option>
+    <option value="grad">Graduação</option>
+    <option value="pos">Pós-Graduação</option>
+    <option value="mest">Mestrado</option>
+    <option value="dout">Doutorado</option>
+
+
+
+   </select>
     
     &nbsp;<input type="submit">&nbsp;<input type="reset">
     </form>
